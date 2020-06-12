@@ -1,0 +1,50 @@
+.verify-email-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin-top: 2rem;
+  padding: 1rem 2rem 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.verify-email-box div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verify-email-box div:nth-child(2) {
+  margin: 2rem;
+}
+
+.verify-email-box div:nth-child(2) p {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+.verify-email-box div:nth-child(2) p:nth-child(2) {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.verify-email-box #verify-icon svg {
+  color: rgb(2, 222, 2);
+}
+
+.verify-email-box #verify-footer-msg {
+  padding: 2rem 0.5rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.verify-email-box #verify-footer-msg span {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: var(--color-brand);
+}
