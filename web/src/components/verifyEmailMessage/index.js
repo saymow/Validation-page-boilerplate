@@ -20,7 +20,7 @@ const VerifyEmailMessage = (props) => {
       </div>
       <div>
         <p>
-          Welcome to Kanban App, we sent you a confirmation link to your
+          Welcome to our App, we sent a confirmation link to your
           registered email:
         </p>
         <p>

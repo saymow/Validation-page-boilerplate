@@ -79,8 +79,13 @@ module.exports = {
 
     const user = await connection("users").where("email", email);
 
+    console.log(user);
+
     if (user.length === 0)
       return res.json({ error: { email: "Email not registred." } });
+
+    if (user[0].confirmed === 0)
+      return res.json({ error: { email: "Email not yet verified." } });
 
     if (!(await bcrypt.compare(password, user[0].password)))
       return res.json({ error: { password: "Incorrect password." } });
@@ -116,7 +121,7 @@ function sendConfirmationMail(email) {
       from: "teste@teste.com.br",
       to: email,
       subject: "Verify your email",
-      html: `<p>Welcome to kanban app, open this link to verify your email <a href=${verifyLink}>${verifyLink}</p>`,
+      html: `<p>Welcome to our app, open this link to verify your email</p> </p> <a href=${verifyLink}>${verifyLink}</p>`,
     },
     (err, info) => {
       if (err) {
