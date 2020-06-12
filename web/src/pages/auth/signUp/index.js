@@ -114,7 +114,7 @@ const SignUp = () => {
   }
 
   async function handleReSendConfirmationEmail() {
-    const response = await ReSendConfirmationEmail(formData.email);
+    await ReSendConfirmationEmail(formData.email);
   }
 
   return (
