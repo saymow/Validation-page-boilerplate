@@ -2,7 +2,7 @@
 <br>
 
 <p align="center">
-  <img src="https://github.com/saymow/Validate-page-boilerplate/blob/master/.github/execution-gif.gif" width="920px"></img>
+  <img src="https://github.com/saymow/Validate-page-boilerplate/blob/master/.github/executation-gif.gif" width="920px"></img>
 </p>
 
 <br>
