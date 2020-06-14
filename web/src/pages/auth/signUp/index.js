@@ -132,7 +132,7 @@ const SignUp = () => {
           className="auth-form"
           onSubmit={(event) => handleSubmitForm(event)}
         >
-          <h1>Sing Up</h1>
+          <h1>Sign Up</h1>
           <div
             className={
               formErros.user !== ""

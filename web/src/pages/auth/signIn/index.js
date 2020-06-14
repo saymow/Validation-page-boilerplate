@@ -94,7 +94,7 @@ const SignIn = () => {
         Are you new here? <Link to="/register">Sign up</Link>
       </p>
       <form className="auth-form" onSubmit={(event) => handleSubmitForm(event)}>
-        <h1>Sing In</h1>
+        <h1>Sign In</h1>
 
         <div
           className={
