@@ -1,6 +1,11 @@
 <h1 align="center">:fire: Validate boilerplate :fire: </h1>
+<br>
 
+<p align="center">
+  <img src="https://github.com/saymow/Validate-page-boilerplate/blob/master/.github/execution-gif.gif" width="920px"></img>
+</p>
 
+<br>
 
 ## :rocket: Technologies used:
 
