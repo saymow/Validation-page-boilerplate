@@ -1,4 +1,4 @@
-<h1 align="center">:fire: Validate boilerplate :fire: </h1>
+<h1 align="center">:fire: Validation boilerplate :fire: </h1>
 <br>
 
 <p align="center">
@@ -24,10 +24,10 @@
 
 ```
 # Clone this repositoy
-$ git@github.com:saymow/Validate-page-boilerplate.git
+$ git@github.com:saymow/Validation-page-boilerplate.git
 
 # Change into its directory
-$ cd Validation Page
+$ cd Validation-page-boilerplate
 
 # Change into its backend and frontend 
 
